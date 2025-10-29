@@ -1,0 +1,71 @@
+Frequently Asked Questions (FAQ)
+Q: What kind of services do you offer to small businesses?
+
+A: I specialize in developing custom, intelligent solutions to help businesses automate tasks, understand their data, and improve user engagement. My main services include:
+
+
+Custom Web Application Development: Building interactive web tools, dashboards, and backends using Python frameworks like Flask.
+
+
+
+Chatbot Development: Creating intelligent chatbots that can understand and interpret natural language to handle customer queries or automate tasks.
+
+
+Data Science & Machine Learning: Analyzing your business data to build predictive models , create recommendation systems , or detect anomalies and enhance system reliability.
+
+
+
+Q: I need a website, but I want it to do something, not just be a brochure. Can you build that?
+
+A: Absolutely. While I have skills in front-end basics, my specialty is building the "brain" behind a web application. I use Python frameworks like Flask and Django to create interactive tools. For example, I've built Flask UIs and backends for a plagiarism detector, an image captioning tool , and a chatbot. I can design and build a RESTful API  to power a custom dashboard, a customer portal, or any unique feature your business needs.
+
+
+
+Q: I'm interested in adding a chatbot to my website. Can you build one that actually understands my customers?
+
+A: Yes. I can develop intelligent chatbots that go beyond simple, pre-programmed answers. I have hands-on experience in Natural Language Processing (NLP) to build bots that can interpret queries using techniques like TF-IDF and cosine similarity. In my "Lexibot" project, I specifically focused on enhancing context understanding with query refinement, which improved the bot's accuracy by over 20%. We can create a bot that understands your customers' questions and provides real value.
+
+
+Q: My business has a lot of data, but I don't know what to do with it. How can you help?
+
+A: This is my core specialty. My experience as a Data Science Intern involved performing exploratory data analysis (EDA) and building statistical models on large-scale datasets to detect anomalies. I also have experience as a Machine Learning Intern designing and implementing predictive models and recommendation models.
+
+
+
+For your business, this could mean:
+
+Analyzing customer data to predict which clients are likely to return.
+
+Building a system to recommend specific products to users.
+
+Finding unusual patterns in your sales or operational data that could save you money.
+
+Q: What technologies do you use?
+
+A: My toolkit is built on modern, robust technologies.
+
+Programming: My primary language is Python, supported by Java, SQL, and R.
+
+
+Data Science & ML: I am proficient with Pandas, NumPy, Scikit-learn , TensorFlow, Keras, and PyTorch.
+
+
+
+Web & Deployment: I use Flask and Django for web backends, and I have experience with AWS (specifically AWS Lambda ) and Docker.
+
+
+
+
+
+Databases: I am comfortable working with MySQL, MongoDB, and PostgreSQL.
+
+Q: I see you're a student. Do you have practical, real-world experience?
+
+A: I do. I've successfully completed two professional internships that allowed me to apply my skills to real-world business challenges.
+
+
+Data Science Intern at LPDG India: I worked with large-scale sensor datasets to perform data preparation, EDA, and statistical modeling to detect anomalies and improve system reliability.
+
+
+
+Machine Learning Intern at ByteHearts: I designed predictive and recommendation models and also contributed to ML workflow automation and model deployment using AWS Lambda

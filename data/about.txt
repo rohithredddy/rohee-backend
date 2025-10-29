@@ -1,0 +1,29 @@
+Hello! I am Mudiam Veera Rohith Reddy , a passionate and data-driven undergraduate student at Rajeev Gandhi Memorial College of Engineering and Technology. I am currently pursuing my B.Tech in Computer Science and Engineering with a specialization in Data Science , and I'm on track to graduate in 2026. I've maintained a strong academic focus, holding an 8.4 CGPA.
+
+
+
+My core interest lies in applying machine learning and data science to solve real-world problems, which I've had the opportunity to do through practical internships. Most recently, I worked as a Data Science Intern at LPDG India from August to October 2025. In this remote role , I dove deep into large-scale sensor datasets. My responsibilities included performing detailed data preparation, exploratory data analysis, and statistical modeling to detect anomalies and enhance system reliability. I developed and fine-tuned machine learning models using Python, Scikit-learn, and TensorFlow, and through feature optimization, I was able to improve detection accuracy. A key part of this role was collaborating with data mentors to derive actionable insights that directly improved AI-driven decision systems.
+
+
+
+
+
+Before that, I completed a Machine Learning Internship at ByteHearts from May to July 2025. There, I focused on designing and implementing predictive and recommendation models using Python, TensorFlow, and Scikit-learn. I also handled in-depth exploratory data analysis and visualization with tools like Pandas, Seaborn, and Plotly to enhance model explainability. A significant achievement during this time was my contribution to ML workflow automation and model inference deployment using AWS Lambda.
+
+
+
+
+
+Beyond my professional experience, I love building projects from the ground up. One of my key projects is the "Lexibot Dictionary Chatbot". I developed this intelligent chatbot to interpret natural language queries using TF-IDF, cosine similarity, and keyword mapping for precise word retrieval. I also built a RESTful API for real-time lookups and improved its context understanding with query refinement, boosting its accuracy by over 20%.
+
+
+
+Another project I'm proud of is "Automatic Image Captioning". I built a deep learning model combining CNNs, RNNs, and Vision Transformers to generate human-like captions for images from the MS-COCO dataset. This project also involved creating a Flask-based backend with MongoDB to store inputs and captions , and I used beam search decoding and BLEU metrics to optimize caption quality.
+
+
+
+To keep my skills sharp, I've earned certifications in "Data Analytics with Python" from NPTEL , as well as an "Artificial Intelligence Primer" and "Agile Scrum in Practice" from Infosys SpringBoard.
+
+
+
+I am also actively involved in my college community. I serve as the Lead for the Interview Preparations Club, where I mentor my peers on placement readiness and technical interviews. I thrive in fast-paced, collaborative environments and was thrilled to be a 1st Prize Winner in a 24-hour Hackathon for an innovative AI-based project solution

@@ -1,0 +1,45 @@
+Competitions & Leadership
+
+1st Prize Winner, 24-hour Hackathon: Successfully led or contributed to a team that won first place for an innovative AI-based project solution.
+
+
+Lead, Interview Preparations Club: Took a leadership role mentoring peers on placement readiness and technical interviews.
+
+Professional & Internship Achievements
+
+Improved Model Accuracy (LPDG India): Successfully developed and fine-tuned machine learning models, improving anomaly detection accuracy through feature optimization.
+
+
+Contributed to Cloud Deployment (ByteHearts): Actively contributed to the automation of machine learning workflows and the deployment of model inference using AWS Lambda.
+
+
+Delivered Actionable Insights (LPDG India): Collaborated with data mentors to analyze data and derive actionable insights that were used to improve AI-driven decision systems.
+
+
+Developed Predictive Models (ByteHearts): Designed and implemented predictive and recommendation models using Python, TensorFlow, and Scikit-learn.
+
+Key Project Achievements
+
+Boosted Chatbot Accuracy by 20% (Lexibot): Enhanced the chatbot's context understanding with query refinement and fallback logic, leading to a measured accuracy improvement of over 20%.
+
+
+Built End-to-End Deep Learning Application (Image Captioning): Successfully constructed a complete deep learning system, integrating a Flask-based backend with a MongoDB database to store user inputs and generated captions, ensuring efficient retrieval and scalability.
+
+
+Implemented Complex AI Models (Image Captioning): Built and applied advanced deep learning models, combining CNNs, RNNs, and Vision Transformers to generate human-like captions for images.
+
+
+Deployed Real-Time API (Lexibot): Designed and deployed a RESTful API for real-time dictionary lookups, allowing for seamless user interaction.
+
+Academic & Certification Achievements
+
+High Academic Standing: Maintained a strong 8.4 CGPA in a rigorous B.Tech in Computer Science and Engineering (Data Science) program.
+
+
+NPTEL Certification: Earned a certification in "Data Analytics with Python" from NPTEL.
+
+
+Infosys SpringBoard Certifications: Completed certifications in "Artificial Intelligence Primer" and "Agile Scrum in Practice".
+
+
+Excellent Intermediate Score: Achieved a high-performing 90% in Intermediate (MPC).

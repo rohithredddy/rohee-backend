@@ -1,0 +1,33 @@
+Programming Languages
+
+Python
+
+Java
+
+SQL
+
+R
+
+C++
+
+Data Science & ML
+
+Libraries: NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn, TensorFlow, Keras, PyTorch, NLTK
+
+Concepts: Data Analysis, Machine Learning, Deep Learning, NLP, Statistical Modeling, Data Visualization, EDA (Exploratory Data Analysis), Feature Engineering
+
+Databases
+
+MySQL
+
+MongoDB
+
+PostgreSQL
+
+Web Development & Tools
+
+Frameworks: Flask, Django
+
+Tools: Git, GitHub, Docker, AWS, Power BI, Tableau, Excel
+
+Web: HTML, CSS, JavaScript

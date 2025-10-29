@@ -1,0 +1,40 @@
+Based on the resume and skills list you provided, here is a more detailed, first-person description of your projects:
+
+Lexibot Dictionary Chatbot
+In this project, I built a smart chatbot designed to understand and respond to natural language queries for dictionary definitions.
+
+Core Function: I developed the chat's "intelligence" using Python and Natural Language Processing (NLP) techniques. It uses TF-IDF (Term Frequency-Inverse Document Frequency), cosine similarity, and keyword mapping to accurately interpret what a user is asking and retrieve the precise word they're looking for. The Scikit-learn and NLTK libraries from my skillset were central to implementing this.
+
+
+Backend & API: To make it functional, I designed a RESTful API using Flask, which allows the chatbot to handle real-time dictionary lookups.
+
+Performance: I didn't just build it; I improved it. I enhanced its ability to understand context by implementing query refinement and fallback logic. This "smarter" logic improved the chatbot's overall accuracy by more than 20%.
+
+Automatic Image Captioning
+This was a deep learning project where I built a model to generate accurate, human-like captions for images.
+
+The Model: I constructed a sophisticated Deep Learning model using a combination of architectures. It uses CNNs (Convolutional Neural Networks) to understand the visual features of an image and RNNs (Recurrent Neural Networks), along with Vision Transformers, to generate fluent, context-aware text. This required hands-on work with libraries like TensorFlow and Keras on the MS-COCO dataset.
+
+Full-Stack Implementation: This wasn't just a model in isolation. I integrated it into a full application by building a Flask-based backend. I connected this backend to a MongoDB database, which I used to store user inputs and the captions the model generated. This setup supports efficient data retrieval and makes the application scalable.
+
+Optimization & Evaluation: To ensure the captions were high-quality, I implemented beam search decoding to help the model choose the best possible sentence. I then used BLEU evaluation metrics to objectively measure the caption quality and linguistic fluency, allowing me to fine-tune the model for better performance.
+
+Plagiarism Detector using Machine Learning 
+
+For this project, I created a web application to detect potential plagiarism in text documents. My goal was to build an educational tool to help identify copied content.
+
+
+Core Logic: The detection is powered by Machine Learning. I used Logistic Regression as the classification model. To prepare the text for the model, I implemented a full NLP preprocessing pipeline, which includes tokenization, lowercasing, and removing stop-words. Then, I used TF-IDF vectorization to convert the text into numerical features that the model can use to compare text similarity.
+
+
+The Application: I built a user-friendly UI using Flask, a Python-based web framework. This allows a user to input text and have the system compare it against a dataset, which contains pairs of original and plagiarized text, to detect potential plagiarism.
+
+Wild Animal Detection and Alert System 
+
+I developed a high-stakes, real-time detection system using Deep Learning to identify wild animals and send alerts for dangerous ones.
+
+
+The Model: The system's core is a Vision Transformer (ViT) model that I fine-tuned for the specific task of animal classification. I used libraries like PyTorch, TensorFlow, and the Transformers library to build and train this model. To make the model more robust, I used data augmentation techniques like flips, zoom, and rotations, which helped it achieve an 89.41% validation accuracy after 10 epochs.
+
+
+Real-Time Application: I used OpenCV to capture live video input from a webcam. The system processes this feed in real-time, and if the fine-tuned ViT model detects a dangerous animal, it automatically triggers audible alerts. This provides an immediate warning, which was a key feature I wanted to implement.
