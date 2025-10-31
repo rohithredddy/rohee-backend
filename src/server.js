@@ -7,8 +7,10 @@ import { getChatResponse } from "./rag/chat.js";
 dotenv.config();
 
 const app = express();
-app.use(cors());
-app.use(express.json());
+app.use(cors({
+  origin: ['https://rohithreddy.vercel.app', 'http://localhost:5173'], // allow your frontend(s)
+  credentials: true
+}));app.use(express.json());
 app.get("/", (req, res) => {
   res.send("✅ Rohee backend is live and running on Render!");
 });
