@@ -7,29 +7,71 @@ import { getChatResponse } from "./rag/chat.js";
 dotenv.config();
 
 const app = express();
-app.use(cors({
-  origin: ['https://rohithredddy.vercel.app', 'http://localhost:5173'], // allow your frontend(s)
-  credentials: true
-}));app.use(express.json());
+
+// ✅ Middleware
+app.use(
+  cors({
+    origin: [
+      "https://rohithredddy.vercel.app", // your deployed portfolio
+      "http://localhost:5173",           // local dev testing
+    ],
+    credentials: true,
+  })
+);
+app.use(express.json());
+
+// ✅ Root Route — sanity check
 app.get("/", (req, res) => {
   res.send("✅ Rohee backend is live and running on Render!");
 });
 
-app.get("/ping", (_req, res) =>
-  res.json({ message: "Backend is running ✅" })
-);
-
-app.get("/test-data", (_req, res) => {
-  res.type("text/plain").send(loadUserData());
+// ✅ Health check route
+app.get("/ping", (_req, res) => {
+  res.json({ message: "Backend is running ✅" });
 });
 
+// ✅ Data preview route (optional)
+app.get("/test-data", (_req, res) => {
+  try {
+    const data = loadUserData();
+    res.type("text/plain").send(data);
+  } catch (err) {
+    console.error("Error loading test data:", err);
+    res.status(500).send("Error loading data.");
+  }
+});
+
+// ✅ Main Chat route
 app.post("/chat", async (req, res) => {
   const { question } = req.body;
-  if (!question) return res.status(400).json({ answer: "No question provided" });
 
-  const answer = await getChatResponse(question);
-  res.json({ answer });
+  // Validate request
+  if (!question || typeof question !== "string") {
+    return res.status(400).json({ answer: "⚠️ Invalid or missing question." });
+  }
+
+  try {
+    // Get AI response from your RAG or model
+    const answer = await getChatResponse(question);
+
+    if (!answer) {
+      return res.status(200).json({
+        answer: "🤖 I'm not sure how to respond to that right now.",
+      });
+    }
+
+    res.json({ answer });
+  } catch (error) {
+    console.error("❌ Error generating response:", error.message || error);
+    res.status(500).json({
+      answer:
+        "⚠️ Sorry, something went wrong on the server. Please try again later.",
+    });
+  }
 });
 
+// ✅ Start server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`✅ Server running → http://localhost:${PORT}`));
+app.listen(PORT, () =>
+  console.log(`🚀 Rohee backend running on → http://localhost:${PORT}`)
+);
